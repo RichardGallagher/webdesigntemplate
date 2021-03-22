@@ -1,0 +1,109 @@
+body
+{
+    font-family: verdana;
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 20px 100px 10px 100px;
+}
+
+header 
+{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+    color: navajowhite;
+    border:1px solid blue;  
+    background-color: white;
+}
+
+#Content {
+    float: left;
+    width: 75%;
+    border: 1px solid grey;
+}
+
+aside {
+    border: 1px solid yellow;
+    float: right;
+    width: 18%;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+        
+}
+footer ul li{
+    list-style-type: none;
+    color: white;
+    display: inline;
+    padding: 15px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    display: inline;
+}
+
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li:hover{ background-color: #8E8E8E;}
+
+nav ul li{
+    
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: #8E8E8E;
+    padding: 5px;
+    border:1px solid red;
+}
+
+aside ul li{
+    list-style-type: none;
+}
+p{
+    text-align: justify;
+    padding: 2px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.mainpage {
+    background-color: black;
+}
+
+.fixtures {
+    float: left;
+    font-family: verdana;
+    width: 80%;
+    background-color: black;
+    color: white;
+}
+aside {
+    border: 1px solid blue;
+    float: right;
+    width: 18%;
+    background-color: yellow
+}
